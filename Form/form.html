@@ -16,7 +16,7 @@
       <form>
         <div>
           <label for="fname">First Name</label><br />
-          <input type="text" id="fname" name="First Name" placeholder="Enter First Name" /> <br />
+          <input type="text" id="fname" name="First Name" placeholder="Enter First Name" required> <br/>
         <br></div>
 
         <div>
@@ -26,7 +26,7 @@
 
         <div>
             <label for="Gender">Gender</label><br>
-            <input list="Gender" name="Gender" placeholder="Select Gender">
+            <input list="Gender" name="Gender" placeholder="Select Gender" required>
             <datalist id="Gender">
                 <option value="Female">Female</option>
                 <option value="Male">Male</option>
@@ -35,22 +35,22 @@
         
         <div>
             <label for="Date of Birth">Date of Birth</label><br>
-            <input type="date" id="date">
+            <input type="date" name="Date of Birth" id="date" required>
         </div><br>
 
         <div>
             <label for="Email address">Email Address</label><br>
-            <input type="email" id="Email" placeholder="Enter Email Address">
+            <input type="email" name="Email" id="Email" placeholder="Enter Email Address" required>
         </div><br>
 
         <div>
             <label for="Phone Number">Phone Number</label><br>
-            <input type="Number" id="Number" placeholder="08023456789">
+            <input type="Number" name="Phone Number" id="Number" placeholder="08023456789" required>
         </div><br>
 
         <div>
             <label for="Country">Country</label><br>
-            <input list="Country" name="Country" placeholder="Select Country">
+            <input list="Country" name="Country" placeholder="Select Country" required>
             <datalist id="Country">
                 <option value="AF">Afghanistan</option>
                 <option value="AX">Åland Islands</option>
@@ -301,9 +301,49 @@
                 <option value="YE">Yemen</option>
                 <option value="ZM">Zambia</option>
                 <option value="ZW">Zimbabwe</option>
-            
-        </div>
+                </div><br>
+
+                <div>
+                    <label for="State/City of Residence">State/City of Residence</label><br>
+                    <input type="text" id="residence" placeholder="Enter State/City of Residence" required>
+                </div><br>
+
+                <div>
+                    <label for="How did you hear about us?">How did you hear about us?</label><br>
+                    <input list="How did you hear about us?" name="How did you hear about us?" placeholder="Select channel" required>
+                    <datalist id="How did you hear about us?">
+                        <option value="Twitter">Twitter</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="LinkedIn">LinkedIn</option>
+                        <option value="YouTube">YouTube</option>
+                        <option value="Whatsapp">Whatsapp</option>
+                        <option value="Family & Friends">Family & Friends</option>
+                        <option value="Bill Board">Bill Board</option>
+                        <option value="Sales Officer">Sales Officer</option>
+                    </datalist>
+                </div><br>
+
+                <div>
+                    <label for="Password">Password</label><br>
+                    <input type="password" id="Password" name="Password" placeholder="Enter password" required>
+                </div><br>
+
+                <div>
+                    <label for="Confirm Password">Confirm Password</label><br>
+                    <input type="password" id="Confirm Password" name="Confirm Password" placeholder="Enter password again" required>
+                </div><br>
+
       </form>
     </section>
+
+    <section>
+        <p>By clicking continue, I agree to Terms of Use and acknowledge that I have read the Privacy Policy</p>
+        <input type="submit">
+    </section>
+
+    <footer> 
+        <p>Vanessa Bakare | Copyright © 2024</p>
+    </footer>
   </body>
 </html>

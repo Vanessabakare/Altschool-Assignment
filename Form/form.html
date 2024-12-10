@@ -16,21 +16,21 @@
       <form>
         <div>
           <label for="fname">First Name</label><br />
-          <input type="text" id="fname" name="First Name" placeholder="Enter First Name" required> <br/>
-        <br></div>
+          <input type="text" id="fname" name="First Name" placeholder="Enter First Name" required> <br>
+        </div><br>
 
         <div>
           <label for="lname">Last Name</label> <br />
-          <input type="text" id="lname" name="Last Name" placeholder="Enter Last Name" required /> <br />
+          <input type="text" id="lname" name="Last Name" placeholder="Enter Last Name" required> <br>
         <br></div>
 
         <div>
             <label for="Gender">Gender</label><br>
-            <input list="Gender" name="Gender" placeholder="Select Gender" required>
-            <datalist id="Gender">
+            <select id="Gender" name="Gender" placeholder="Select Gender" required>
+                <option value="">Select Gender</option>
                 <option value="Female">Female</option>
                 <option value="Male">Male</option>
-            </datalist>
+            </select>
         </div><br>
         
         <div>
@@ -333,13 +333,9 @@
                     <label for="Confirm Password">Confirm Password</label><br>
                     <input type="password" id="Confirm Password" name="Confirm Password" placeholder="Enter password again" required>
                 </div><br>
-
-      </form>
-    </section>
-
-    <section>
-        <p>By clicking continue, I agree to Terms of Use and acknowledge that I have read the Privacy Policy</p>
+                <p>By clicking continue, I agree to Terms of Use and acknowledge that I have read the Privacy Policy</p>
         <input type="submit">
+          </form>
     </section>
 
     <footer> 

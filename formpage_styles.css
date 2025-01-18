@@ -1,0 +1,100 @@
+body{
+    font-family: "Big Shoulders Display", serif;
+
+}
+header{
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(to right,#b072f8, #7059FF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1{
+    color: white;
+    font-size: clamp(30px,5vw,70px);
+}
+header p{
+    width: 40%;
+    line-height: 25px;
+    text-align: center;
+    color: rgb(205, 205, 205);
+}
+
+section{
+    padding: 50px;
+    background-color: var(--hero);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.154);
+  margin-top: -150px;
+  padding: 50px;
+}
+
+label,input{
+    display: block;
+    width: 100%;
+}
+
+label{
+    font-size: 12px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+input{
+    border: 1px solid rgb(209, 209, 209);
+    padding: 5px;
+     border-radius: 10px;
+}
+
+.lineCont{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+
+.labelInputCont{
+    width: 100%;
+}
+
+.net{
+    display: flex;
+}
+
+.net input {
+  display: flex;
+  width: 50%;
+  padding: 12px;
+  margin: 8px;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+#Gender {
+  width: 50%;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.button {
+  width: 20%;
+  padding: 12px;
+  background-color: var(--navBar);
+  color: var(--hero);
+  border-radius: 100px;
+}

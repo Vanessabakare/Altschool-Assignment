@@ -5,52 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Altschool Form</title>
     <link rel="stylesheet" href="../Assets/Style/style.css">
+    <!-- Links For Googlr Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../formpage_styles.css">
+    
   </head>
   <body>
-    <header><h1>My First Altschool Form</h1></header>
-    <nav>
-      <a href="./form.html">Form</a>
-      <a href="../index.html">About Page</a>
-    </nav>
+    <header>
+      <h1>ALT School Africa Form</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit accusantium facilis eius, reiciendis blanditiis</p>
+    </header>
     <section>
-      <br />
-      <form>
-        <div>
-          <label for="fname">First Name</label><br />
-          <input type="text" id="fname" name="First Name" placeholder="Enter First Name" required> <br>
-        </div><br>
+      <form class="form">
+        <div class="lineCont">
+          <div class="labelInputCont">
+            <label for="">Firstname</label>
+            <input type="text" name="" id="">
+          </div>
+          <div class="labelInputCont">
+            <label for="">Lastname</label>
+            <input type="text" name="" id="">
+          </div>
+        </div>
+        <div class="lineCont">
+          <div class="labelInputCont">
+            <label for="">Firstname</label>
+            <input type="text" name="" id="">
+          </div>
+          <div class="labelInputCont">
+            <label for="">Lastname</label>
+            <input type="text" name="" id="">
+          </div>
+        </div>
+      </form>
+        <!-- <form class="form">
+        <div class="net">
+          <label for="fname">First Name</label> <br><br>
+          <input type="text" id="fname" name="First Name" placeholder="Enter First Name" required> 
+          <div class="net">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="Last Name" placeholder="Enter Last Name" required>
+          </div>
+        </div>
+        
 
-        <div>
-          <label for="lname">Last Name</label> <br />
-          <input type="text" id="lname" name="Last Name" placeholder="Enter Last Name" required> <br>
-        <br></div>
-
-        <div>
-            <label for="Gender">Gender</label><br>
+        <div class="net">
+            <label for="Gender">Gender</label>
             <select id="Gender" name="Gender" placeholder="Select Gender" required>
                 <option value="">Select Gender</option>
                 <option value="Female">Female</option>
                 <option value="Male">Male</option>
             </select>
-        </div><br>
+        </div>
         
-        <div>
-            <label for="Date of Birth">Date of Birth</label><br>
+        <div class="net">
+            <label for="Date of Birth">Date of Birth</label>
             <input type="date" name="Date of Birth" id="date" required>
-        </div><br>
+        </div>
 
-        <div>
-            <label for="Email address">Email Address</label><br>
+        <div class="net">
+            <label for="Email address">Email Address</label>
             <input type="email" name="Email" id="Email" placeholder="Enter Email Address" required>
-        </div><br>
+        </div>
 
-        <div>
-            <label for="Phone Number">Phone Number</label><br>
+        <div class="net">
+            <label for="Phone Number">Phone Number</label>
             <input type="Number" name="Phone Number" id="Number" placeholder="08023456789" required>
-        </div><br>
+        </div>
 
-        <div>
-            <label for="Country">Country</label><br>
+        <div class="net">
+            <label for="Country">Country</label>
             <input list="Country" name="Country" placeholder="Select Country" required>
             <datalist id="Country">
                 <option value="Afghanistan">Afghanistan</option>
@@ -299,15 +332,15 @@
                 <option value="Yemen">Yemen</option>
                 <option value="Zambia">Zambia</option>
                 <option value="Zimbabwe">Zimbabwe</option>
-                </div><br>
+                </div>
 
-                <div>
-                    <label for="State/City of Residence">State/City of Residence</label><br>
+                <div class="net">
+                    <label for="State/City of Residence">State/City of Residence</label>
                     <input type="text" id="residence" name="State/City of Residence" placeholder="Enter State/City of Residence" required>
-                </div><br>
+                </div>
 
-                <div>
-                    <label for="How did you hear about us?">How did you hear about us?</label><br>
+                <div class="net">
+                    <label for="How did you hear about us?">How did you hear about us?</label>
                     <input list="How did you hear about us?" name="How did you hear about us?" placeholder="Select channel" required>
                     <datalist id="How did you hear about us?">
                         <option value="Twitter">Twitter</option>
@@ -320,20 +353,21 @@
                         <option value="Bill Board">Bill Board</option>
                         <option value="Sales Officer">Sales Officer</option>
                     </datalist>
-                </div><br>
+                </div>
 
-                <div>
-                    <label for="Password">Password</label><br>
+                <div class="net">
+                    <label for="Password">Password</label>
                     <input type="password" id="Password" name="Password" placeholder="Enter password" required>
-                </div><br>
+                </div>
 
-                <div>
-                    <label for="Confirm Password">Confirm Password</label><br>
+                <div class="net">
+                    <label for="Confirm Password">Confirm Password</label>
                     <input type="password" id="Confirm Password" name="Confirm Password" placeholder="Enter password again" required>
-                </div><br>
+                </div>
                 <p>By clicking continue, I agree to Terms of Use and acknowledge that I have read the Privacy Policy</p>
-        <input type="submit">
-          </form>
+        <input class="button" type="submit">
+      
+          </form> -->
     </section>
 
     <footer> 
